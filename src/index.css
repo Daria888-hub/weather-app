@@ -32,6 +32,14 @@
   margin-right: 20px;
 }
 
+.footer {
+  text-align: center;
+  color: rgb(100, 94, 94);;
+  font-family: "Rochester", cursive;
+margin-top: 50px;
+  font-size: 20px;
+}
+
 .tempretureNow {
   margin-left: 20px;
   font-size: 40px;

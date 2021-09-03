@@ -2,8 +2,14 @@ import React, {useState} from "react";
 import "./index.css"
 import axios from "axios";
 
-export default function Weather (){
-    return (
+export default function Weather (props){
+  function HandleResponse(response){
+  }
+    let apiKey = "a7edac7c339e249bf90472e14cc7ec79";
+      let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${apiKey}&units=metric`;
+      axios.get(apiUrl).then(HandleResponse);
+  
+  return (
         <div className= "App">
         <div className="search">
       <form className="change-city" >
@@ -71,6 +77,12 @@ export default function Weather (){
       <a href="#">C°</a>/<a href="#">F°</a>
     </p>
   </div>
-  </div>
+      <div class="openSourse">
+       <p class="footer">
+      <a href="https://github.com/Daria888-hub/SheCodesD"> Open Sourse</a>, 
+      by Daria Lee
+      </p>
+      </div>
+    </div>
     )
 }
