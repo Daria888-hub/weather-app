@@ -74,7 +74,7 @@ export default function Weather (props){
     </div>
     <p className="tempretureNow">
       <span id="currentTemp">20°</span>
-      <a href="#">C°</a>/<a href="#">F°</a>
+      C°/F°
     </p>
   </div>
       <div class="openSourse">
