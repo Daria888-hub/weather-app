@@ -79,7 +79,7 @@ export default function Weather (props){
   </div>
       <div class="openSourse">
        <p class="footer">
-      <a href="https://github.com/Daria888-hub/SheCodesD"> Open Sourse</a>, 
+      <a href="https://github.com/Daria888-hub/weather-app"> Open Sourse</a>, 
       by Daria Lee
       </p>
       </div>
